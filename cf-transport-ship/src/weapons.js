@@ -18,7 +18,7 @@ export const WEAPONS = {
   },
   awm: {
     id: 'awm', name: 'AWM', slot: 0, type: 'sniper', auto: false,
-    dmg: 118, headMul: 2.2, limbMul: 0.82, rpm: 41, mag: 5, reserve: 20, reload: 3.5, draw: 1.1,
+    dmg: 118, headMul: 2.2, limbMul: 0.82, rpm: 41, mag: 500, reserve: 2000, reload: 0.5, draw: 1.1,
     speed: 0.82, range: 400, falloff: 0.998, pen: 2.6, armorPen: 0.95, bolt: 1.35,
     spread: { base: 0.06, scoped: 0.0004, move: 0.09, air: 0.22, crouch: 0.85, perShot: 0, max: 0.2, recover: 3 },
     recoil: { up: 0.035, upMax: 0.035, side: 0.004, sideStart: 0, recover: 4 },
